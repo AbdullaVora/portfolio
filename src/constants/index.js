@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,8 +12,6 @@ import {
   nodejs,
   mongodb,
   git,
-  jobit,
-  tripguide,
 } from "../assets";
 
 import nullclass from "../assets/nullclass.png"
@@ -27,6 +24,11 @@ import photoshop from "../assets/tech/photoshop.png"
 import dijital from "../assets/projects/project_1.png"
 import furniture from "../assets/projects/furniture.png"
 import movie from "../assets/projects/movie.png"
+import interior from "../assets/projects/interior.png"
+import dashtreme from "../assets/projects/dashtreme.png"
+import bookStore from "../assets/projects/bookStore.png"
+import instagram from "../assets/projects/instagram.png"
+import weather from "../assets/projects/weather.png"
 
 export const navLinks = [
   {
@@ -241,9 +243,141 @@ const projects = [
       },
     ],
     image: movie,
-    live_link: "",
+    live_link: "https://movie-admin-panel.onrender.com",
     source_code_link: "https://github.com/AbdullaVora/Movie-Admin-Panel.git",
   },
+  {
+    name: "Interior Showroom",
+    description:
+      "This project is a responsive Interior Showr,oom Website designed to showcase elegant and modern interior designs. It features an intuitive layout optimized for all devices, ensuring seamless user experience on desktops, tablets, and smartphones.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: interior,
+    live_link: "https://abdullavora.github.io/Interior/",
+    source_code_link: "https://github.com/AbdullaVora/Interior.git"
+  },
+  {
+    name: "Dashtreme Admin",
+    description:
+      "This project is an Admin Panel designed to manage and control various aspects of a web application or website. It is built using HTML5, CSS3, Bootstrap, and JavaScript, offering a clean, and user-friendly interface.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: dashtreme,
+    live_link: "https://abdullavora.github.io/Dashtreme-admin/",
+    source_code_link: "https://github.com/AbdullaVora/Dashtreme-admin.git"
+  },
+  {
+    name: "Book Store",
+    description:
+      "This Bookstore Management System is a full-stack web application designed to efficiently manage book inventory and user interactions. Built using Node.js and MongoDB, the project enables users to perform CRUD (Create, Read, Update, Delete) operations on books.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: bookStore,
+    live_link: "https://book-store-fupf.onrender.com",
+    source_code_link: "https://github.com/AbdullaVora/Book-Store.git"
+  },
+  {
+    name: "Instagram Home Page",
+    description:
+      "This project is a replica of the Instagram Home Page with core functionalities implemented using Node.js, MongoDB, and JavaScript. Users can create, read, update, and delete (CRUD) posts, as well as like posts. The backend, powered by Node.js and MongoDB, ensures efficient data handling and storage, while EJS enhances interactivity on the frontend.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: instagram,
+    live_link: "https://instagram-crud.onrender.com",
+    source_code_link: "https://github.com/AbdullaVora/Instagram-CRUD.git"
+  },
+  {
+    name: "Live Weather & Location",
+    description:
+      "This Weather Application is a dynamic and interactive web app built using React, Redux, and JavaScript. It provides users with real-time weather updates and integrates a live map to display the user's current location.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: weather,
+    live_link: "https://auto-map-weather.onrender.com",
+    source_code_link: "https://github.com/AbdullaVora/Auto-Map-Weather.git"
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -54,11 +54,14 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex justify-between flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      <div className="mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-7 max-h-[530px] overflow-y-scroll">
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
       </div>
+
     </>
   )
 }
