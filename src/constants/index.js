@@ -29,6 +29,7 @@ import dashtreme from "../assets/projects/dashtreme.png"
 import bookStore from "../assets/projects/bookStore.png"
 import instagram from "../assets/projects/instagram.png"
 import weather from "../assets/projects/weather.png"
+import furstore from "../assets/projects/furstore.png"
 
 export const navLinks = [
   {
@@ -180,6 +181,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Furniture ShowRoom (FurStore)",
+    description:
+      "Developed a sleek and modern furniture store website using React and Firebase. The site features dynamic product displays, user authentication, and real-time database integration for seamless inventory management",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "FireBase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: furstore,
+    live_link: "furn-store-xi.vercel.app",
+    source_code_link: "https://github.com/AbdullaVora/FurnStore.git",
+  },
   {
     name: "Dijital Marketing",
     description:
