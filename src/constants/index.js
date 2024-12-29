@@ -30,6 +30,7 @@ import bookStore from "../assets/projects/bookStore.png"
 import instagram from "../assets/projects/instagram.png"
 import weather from "../assets/projects/weather.png"
 import furstore from "../assets/projects/furstore.png"
+import ecommerceAdmin from "../assets/projects/ecommerce-admin.png"
 
 export const navLinks = [
   {
@@ -250,6 +251,28 @@ const projects = [
     image: furniture,
     live_link: "https://react-e-commerce-val4.onrender.com/",
     source_code_link: "https://github.com/AbdullaVora/React-E-Commerce.git",
+  },
+  {
+    name: "Ecommerce Admin Panel",
+    description:
+      "This project involves creating an eCommerce platform with an integrated admin panel for managing the website effectively. The admin panel provides features to handle product listings, inventory, orders, and user management. Developed using ReactJS, Redux ensures seamless state management, while TailwindCSS enhances the design with modern and responsive UI components. This setup allows efficient control over the eCommerce site and delivers a smooth user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerceAdmin,
+    live_link: "https://e-commerce-admin-beta-ten.vercel.app",
+    source_code_link: "https://github.com/AbdullaVora/eCommerce-Admin.git",
   },
   {
     name: "Movie Admin Panel",
