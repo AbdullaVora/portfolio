@@ -31,6 +31,7 @@ import instagram from "../assets/projects/instagram.png"
 import weather from "../assets/projects/weather.png"
 import furstore from "../assets/projects/furstore.png"
 import ecommerceAdmin from "../assets/projects/ecommerce-admin.png"
+import catalogue from "../assets/projects/catalogue.png"
 
 export const navLinks = [
   {
@@ -255,7 +256,7 @@ const projects = [
   {
     name: "Ecommerce Admin Panel",
     description:
-      "This project involves creating an eCommerce platform with an integrated admin panel for managing the website effectively. The admin panel provides features to handle product listings, inventory, orders, and user management. Developed using ReactJS, Redux ensures seamless state management, while TailwindCSS enhances the design with modern and responsive UI components. This setup allows efficient control over the eCommerce site and delivers a smooth user experience.",
+      "This project involves creating an eCommerce platform with an integrated admin panel for managing the website effectively. The admin panel provides features to handle product listings, inventory, orders, and user management. Developed using ReactJS, Redux ensures seamless state management, while TailwindCSS enhances the design and layout.",
     tags: [
       {
         name: "react",
@@ -426,6 +427,29 @@ const projects = [
     image: weather,
     live_link: "https://auto-map-weather.onrender.com",
     source_code_link: "https://github.com/AbdullaVora/Auto-Map-Weather.git"
+  },
+  {
+    name: "Catelogue Handler",
+    description:
+      "This project is an E-commerce Product Catalogue Handler that allows the owner to perform CRUD (Create, Read, Update, Delete) operations on product details. It includes a feature to generate a PDF file of the product catalog for easy sharing. The project is built using HTML, CSS, and JavaScript, ensuring a user-friendly interface and seamless functionality for managing product information.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: catalogue,
+    live_link: "https://catalogue-handle.vercel.app",
+    source_code_link: "https://github.com/AbdullaVora/Catalogue-Handle.git"
   },
   
 ];
