@@ -32,6 +32,7 @@ import weather from "../assets/projects/weather.png"
 import furstore from "../assets/projects/furstore.png"
 import ecommerceAdmin from "../assets/projects/ecommerce-admin.png"
 import catalogue from "../assets/projects/catalogue.png"
+import stack from "../assets/projects/stack_overflow.png"
 
 export const navLinks = [
   {
@@ -189,11 +190,11 @@ const projects = [
       "Developed a sleek and modern furniture store website using React and Firebase. The site features dynamic product displays, user authentication, and real-time database integration for seamless inventory management",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
@@ -201,13 +202,61 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "FireBase",
+        name: "MongoDB",
         color: "blue-text-gradient",
       },
     ],
     image: furstore,
     live_link: "furn-store-xi.vercel.app",
     source_code_link: "https://github.com/AbdullaVora/FurnStore.git",
+  },
+  {
+    name: "Furniture Store",
+    description:
+      "Designed a visually appealing furniture website template showcasing modern UI/UX principles. The template features and high-quality visuals to enhance user experience. Developed using React and plain CSS for seamless integration and performance.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: furniture,
+    live_link: "https://react-e-commerce-val4.onrender.com/",
+    source_code_link: "https://github.com/AbdullaVora/React-E-Commerce.git",
+  },
+  {
+    name: "Stack Overflow",
+    description:
+      "This project is a MERN stack-based clone of Stack Overflow, providing users with a platform to seamlessly log in, ask questions, and share answers. It features user authentication, real-time interaction, and an intuitive interface for efficient knowledge sharing. Users can upvote, downvote, and comment on questions and answers, fostering collaborative problem-solving.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: stack,
+    source_code_link: "https://github.com/AbdullaVora/Stack-Overflow.git",
+    live_link: "https://stack-overflow-i6c6.onrender.com",
   },
   {
     name: "Dijital Marketing",
@@ -230,28 +279,6 @@ const projects = [
     image: dijital,
     source_code_link: "https://github.com/AbdullaVora/Dijital-Marketing.git",
     live_link: "https://abdullavora.github.io/Dijital-Marketing/",
-  },
-  {
-    name: "Furniture Store",
-    description:
-      "Designed a visually appealing furniture website template showcasing modern UI/UX principles. The template features and high-quality visuals to enhance user experience. Developed using React and plain CSS for seamless integration and performance.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: furniture,
-    live_link: "https://react-e-commerce-val4.onrender.com/",
-    source_code_link: "https://github.com/AbdullaVora/React-E-Commerce.git",
   },
   {
     name: "Ecommerce Admin Panel",
@@ -451,7 +478,7 @@ const projects = [
     live_link: "https://catalogue-handle.vercel.app",
     source_code_link: "https://github.com/AbdullaVora/Catalogue-Handle.git"
   },
-  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
