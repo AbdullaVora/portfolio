@@ -477,33 +477,33 @@ const projects = [
     live_link: "https://book-store-fupf.onrender.com",
     source_code_link: "https://github.com/AbdullaVora/Book-Store.git"
   },
-  {
-    name: "Instagram Home Page",
-    description:
-      "This project is a replica of the Instagram Home Page with core functionalities implemented using Node.js, MongoDB, and JavaScript. Users can create, read, update, and delete (CRUD) posts, as well as like posts. The backend, powered by Node.js and MongoDB, ensures efficient data handling and storage, while EJS enhances interactivity on the frontend.",
-    tags: [
-      {
-        name: "Nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "EJS",
-        color: "blue-text-gradient",
-      },
+  // {
+  //   name: "Instagram Home Page",
+  //   description:
+  //     "This project is a replica of the Instagram Home Page with core functionalities implemented using Node.js, MongoDB, and JavaScript. Users can create, read, update, and delete (CRUD) posts, as well as like posts. The backend, powered by Node.js and MongoDB, ensures efficient data handling and storage, while EJS enhances interactivity on the frontend.",
+  //   tags: [
+  //     {
+  //       name: "Nodejs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "EJS",
+  //       color: "blue-text-gradient",
+  //     },
 
-    ],
-    image: instagram,
-    live_link: "https://instagram-crud.onrender.com",
-    source_code_link: "https://github.com/AbdullaVora/Instagram-CRUD.git"
-  },
+  //   ],
+  //   image: instagram,
+  //   live_link: "https://instagram-crud.onrender.com",
+  //   source_code_link: "https://github.com/AbdullaVora/Instagram-CRUD.git"
+  // },
   {
     name: "Live Weather & Location",
     description:
@@ -527,29 +527,29 @@ const projects = [
     live_link: "https://auto-map-weather.onrender.com",
     source_code_link: "https://github.com/AbdullaVora/Auto-Map-Weather.git"
   },
-  {
-    name: "Catelogue Handler",
-    description:
-      "This project is an E-commerce Product Catalogue Handler that allows the owner to perform CRUD (Create, Read, Update, Delete) operations on product details. It includes a feature to generate a PDF file of the product catalog for easy sharing. The project is built using HTML, CSS, and JavaScript, ensuring a user-friendly interface and seamless functionality for managing product information.",
-    tags: [
-      {
-        name: "HTML5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
+  // {
+  //   name: "Catelogue Handler",
+  //   description:
+  //     "This project is an E-commerce Product Catalogue Handler that allows the owner to perform CRUD (Create, Read, Update, Delete) operations on product details. It includes a feature to generate a PDF file of the product catalog for easy sharing. The project is built using HTML, CSS, and JavaScript, ensuring a user-friendly interface and seamless functionality for managing product information.",
+  //   tags: [
+  //     {
+  //       name: "HTML5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Css3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "pink-text-gradient",
+  //     },
 
-    ],
-    image: catalogue,
-    live_link: "https://catalogue-handle.vercel.app",
-    source_code_link: "https://github.com/AbdullaVora/Catalogue-Handle.git"
-  },
+  //   ],
+  //   image: catalogue,
+  //   live_link: "https://catalogue-handle.vercel.app",
+  //   source_code_link: "https://github.com/AbdullaVora/Catalogue-Handle.git"
+  // },
 
 ];
 
