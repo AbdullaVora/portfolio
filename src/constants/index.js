@@ -33,6 +33,12 @@ import furstore from "../assets/projects/furstore.png"
 import ecommerceAdmin from "../assets/projects/ecommerce-admin.png"
 import catalogue from "../assets/projects/catalogue.png"
 import stack from "../assets/projects/stack_overflow.png"
+import sridix from '../assets/company/sridix-logo.jpg'
+import MSWolrd from "../assets/tech/msWord.png"
+import MSExcel from "../assets/tech/msExcel.png"
+import MSPower from "../assets/tech/msPowerpoint.png"
+import adminPanel from "../assets/projects/adminPanel.png"
+import webScan from "../assets/projects/WebScan.png"
 
 export const navLinks = [
   {
@@ -125,22 +131,21 @@ const technologies = [
     name: "Photoshop",
     icon: photoshop,
   }
+  // {
+  //   name: "MS World",
+  //   icon: MSWolrd,
+  // },
+  // {
+  //   name: "MS Excel",
+  //   icon: MSExcel,
+  // },
+  // {
+  //   name: "MS Power Point",
+  //   icon: MSPower,
+  // }
 ];
 
 const experiences = [
-  {
-    title: "Full Stack Developer",
-    company_name: "Red & White Multimedia Education",
-    icon: rw,
-    iconBg: "#383E56",
-    date: "September 2022 - November 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
   {
     title: "MERN Stack Developer",
     company_name: "NullClass E-Learning",
@@ -148,10 +153,22 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a Stack Overflow–like Q&A web application using MERN stack (MongoDB, Express.js, React.js, Node.js) during internship.",
+      "Implemented features such as user authentication, question posting, answer submissions,",
+      "Managed API development and backend logic with Express.js and Node.js, along with data modeling using MongoDB.",
+    ],
+  },
+  {
+    title: "MERN Stack Developer",
+    company_name: "Sridix Technologies",
+    icon: sridix,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 - June 2024",
+    points: [
+      "Worked extensively with React.js, Node.js, Express.js, and MongoDB in various full-stack projects.",
+      "Gained hands-on experience with Next.js for server-side rendering and optimized web performance.",
+      "Developed and maintained accounting-related web applications, focusing on performance, scalability, and accuracy and Contributed to AI-based projects.",
+      "Built and deployed eCommerce platforms, including features like product manage, user authentication, and admin dashboards.",
     ],
   },
 ];
@@ -185,6 +202,60 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Web Scanner",
+    description:
+      "Developed a Website Vernebilities finder Admin Panel website using React and Python. The site features when use many types of tools for scan websites, user authentication, and real-time database integration for seamless inventory management",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+        
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: webScan,
+    live_link: "https://web-defender-admin.vercel.app",
+    source_code_link: "https://github.com/AbdullaVora/WebDefender_Admin.git",
+  },
+  {
+    name: "E-Commerce Admin Panel (FurStore)",
+    description:
+      "Developed a E-Commerce Admin Panel website using React and MongoDB. The site features dynamic manage website contents and product, user authentication, and real-time database integration for seamless inventory management",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+        
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: adminPanel,
+    live_link: "https://super-admin-xi.vercel.app",
+    source_code_link: "https://github.com/AbdullaVora/SuperAdmin.git",
+  },
+  {
     name: "Furniture ShowRoom (FurStore)",
     description:
       "Developed a sleek and modern furniture store website using React and Firebase. The site features dynamic product displays, user authentication, and real-time database integration for seamless inventory management",
@@ -200,6 +271,7 @@ const projects = [
       {
         name: "Redux",
         color: "pink-text-gradient",
+        
       },
       {
         name: "MongoDB",
@@ -207,7 +279,7 @@ const projects = [
       },
     ],
     image: furstore,
-    live_link: "furn-store-xi.vercel.app",
+    live_link: "https://fur-stpre-next-js.vercel.app",
     source_code_link: "https://github.com/AbdullaVora/FurnStore.git",
   },
   {
