@@ -15,7 +15,7 @@ function App() {
           <Experience />
           <Tech />
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
         </main>
         <footer className="relative z-0">
           <Contact />
