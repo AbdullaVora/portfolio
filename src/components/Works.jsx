@@ -10,17 +10,21 @@ import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.2, 0.75)}>
       <Tilt options={{ max: 45, scale: 1, speed: 300 }} className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full h-full">
         <div className="relative w-full h-[230px]">
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div className="bg-red-500 mx-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer " onClick={() => window.open(live_link, "_blank")}>
-              <img src={live} alt="gitHub" className='w-3/4 h-3/4 object-contain' />
-            </div>
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer " onClick={() => window.open(source_code_link, "_blank")}>
-              <img src={github} alt="gitHub" className='w-2/3 h-2/3 object-contain' />
-            </div>
+          <div className="absolute gap-1 inset-0 flex justify-end m-3 card-img_hover">
+            {live_link && (
+              <div className="bg-red-500 mx-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer " onClick={() => window.open(live_link, "_blank")}>
+                <img src={live} title='Live Link' alt="live" className='w-3/4 h-3/4 object-contain' />
+              </div>
+            )}
+            {github && (
+              <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer " onClick={() => window.open(source_code_link, "_blank")}>
+                <img src={github} title='Github Link' alt="gitHub" className='w-2/3 h-2/3 object-contain' />
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-5">

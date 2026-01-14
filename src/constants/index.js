@@ -41,6 +41,7 @@ import adminPanel from "../assets/projects/adminPanel.png"
 import webScan from "../assets/projects/WebScan.png"
 import awesome from "../assets/company/awesome.png"
 import HQ from "../assets/projects/HQ.png"
+import News from "../assets/projects/News.png"
 
 export const navLinks = [
   {
@@ -216,7 +217,29 @@ const testimonials = [
 ];
 
 const projects = [
-    {
+  {
+    name: "News AI Agent",
+    description:
+      "News AI Agent is a web application that uses AI to generate news articles based on user input. It then processes and displays the most relevant and up-to-date news to the user.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+
+      },
+    ],
+    image: News,
+    source_code_link: "https://github.com/AbdullaVora/News_Agent.git",
+  },
+  {
     name: "HQ Perfume",
     description:
       "Its a Live Client Website we can Developed a sleek and modern Perfumes store website using Nextjs. The site features dynamic product displays, user authentication, and real-time database integration for seamless inventory management",
@@ -232,7 +255,7 @@ const projects = [
       {
         name: "Redux",
         color: "pink-text-gradient",
-        
+
       },
       {
         name: "MongoDB",
@@ -258,7 +281,7 @@ const projects = [
       {
         name: "Python",
         color: "pink-text-gradient",
-        
+
       },
       {
         name: "MongoDB",
@@ -285,7 +308,7 @@ const projects = [
       {
         name: "Node.js",
         color: "pink-text-gradient",
-        
+
       },
       {
         name: "MongoDB",
